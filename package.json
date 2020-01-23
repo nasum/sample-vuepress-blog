@@ -1,0 +1,16 @@
+{
+  "name": "sample-vuepress-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/nasum/sample-vuepress-blog.git",
+  "author": "nasum <tomato.wonder.life@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.2",
+    "vuepress": "^1.2.0"
+  }
+}
